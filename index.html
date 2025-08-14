@@ -462,20 +462,23 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="md:w-1/2">
-                    <form class="bg-white p-8 rounded-xl shadow-md">
+                    <form action="https://formspree.io/f/yourFormID" method="POST" class="bg-white p-8 rounded-xl shadow-md">
                         <div class="mb-4">
                             <label for="name" class="block text-gray-700 font-medium mb-2">Nama Lengkap</label>
-                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                         </div>
-                        
+
                         <div class="mb-4">
                             <label for="email" class="block text-gray-700 font-medium mb-2">Alamat Email</label>
-                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        </div>
-                        
-                        <div class="mb-4">
-                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subjek</label>
-                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        </div>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                       </div>
+
+                       <div class="mb-4">
+                           <label for="subject" class="block text-gray-700 font-medium mb-2">Subjek</label>
+                           <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                      </div>
+
+                     <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Kirim</button>
+                  </form>
+            </div>
