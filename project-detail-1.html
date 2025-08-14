@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Perpustakaan Digital | PortofolioKu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Same styles as before */
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="navbar fixed w-full z-50 shadow-sm bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-2xl font-bold text-blue-600">Portofolio<span class="text-blue-800">Ku</span></a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 transition">Beranda</a>
+                    <a href="projects.html" class="text-blue-600 hover:text-blue-800 transition">Proyek</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600 transition">Kontak</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="pt-28 pb-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="mb-8">
+                <a href="projects.html" class="text-blue-600 hover:text-blue-800 inline-flex items-center">
+                    <i class="fas fa-arrow-left mr-2"></i> Kembali ke Daftar Proyek
+                </a>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md overflow-hidden mb-8">
+                <img src="https://placehold.co/1200x600" alt="Tampilan lengkap sistem perpustakaan digital dengan beberapa perangkat dan skenario penggunaan" class="w-full h-96 object-cover">
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-2">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-4">Sistem Perpustakaan Digital</h1>
+                    
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Web Development</span>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">Frontend</span>
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Firebase</span>
+                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
+                    </div>
+                    
+                    <div class="prose max-w-none mb-8">
+                        <h2 class="text-2xl font-semibold mb-3">Deskripsi Proyek</h2>
+                        <p class="mb-4">
+                            Sistem Perpustakaan Digital adalah platform berbasis web yang dikembangkan untuk memodernisasi sistem manajemen perpustakaan di SMA Negeri 1 Jakarta. Proyek ini dibuat sebagai bagian dari tugas mata pelajaran Teknologi Informasi dan Komunikasi (TIK) dengan tujuan menyediakan solusi digital untuk peminjaman buku, pencarian katalog, dan manajemen anggota perpustakaan.
+                        </p>
+                        
+                        <h2 class="text-2xl font-semibold mb-3 mt-6">Fitur Utama</h2>
+                        <ul class="list-disc pl-5 mb-4 space-y-2">
+                            <li>Katalog buku digital dengan sistem pencarian canggih</li>
+                            <li>Sistem peminjaman online dengan batas waktu otomatis</li>
+                            <li>Notifikasi email untuk pengingat pengembalian</li>
+                            <li>Dashboard admin untuk manajemen inventaris</li>
+                            <li>Laporan statistik penggunaan perpustakaan</li>
+                        </ul>
+                        
+                        <h2 class="text-2xl font-semibold mb-3 mt-6">Teknologi yang Digunakan</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                            <div class="border rounded-lg p-4">
+                                <h3 class="font-semibold mb-2 text-blue-600">Frontend</h3>
+                                <ul class="space-y-1">
+                                    <li>HTML5, CSS3, JavaScript ES6+</li>
+                                    <li>Tailwind CSS untuk styling</li>
+                                    <li>Chart.js untuk visualisasi data</li>
+                                </ul>
+                            </div>
+                            <div class="border rounded-lg p-4">
+                                <h3 class="font-semibold mb-2 text-green-600">Backend</h3>
+                                <ul class="space-y-1">
+                                    <li>Firebase Authentication</li>
+                                    <li>Firestore Database</li>
+                                    <li>Firebase Cloud Functions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-semibold mb-3">Galery Proyek</h2>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <img src="https://placehold.co/400x300" alt="Tampilan beranda sistem perpustakaan dengan daftar buku populer" class="rounded-lg">
+                            <img src="https://placehold.co/400x300" alt="Halaman pencarian buku dengan filter kategori" class="rounded-lg">
+                            <img src="https://placehold.co/400x300" alt="Dashboard admin dengan grafik statistik penggunaan" class="rounded-lg">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-1">
+                    <div class="bg-white rounded-xl shadow-md p-6 sticky top-28">
+                        <h3 class="text-xl font-semibold mb-4 border-b pb-2">Detail Proyek</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-medium text-gray-500">Tanggal</h4>
+                                <p>Januari 2023 - Mei 2023</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-500">Kategori</h4>
+                                <p>Aplikasi Web Sekolah</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-500">Klien</h4>
+                                <p>SMA Negeri 1 Jakarta</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-500">Status</h4>
+                                <p class="text-green-600 font-medium">Aktif & Terdeploy</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-500">Link Demo</h4>
+                                <a href="https://library.sman1jkt.sch.id" target="_blank" class="text-blue-600 hover:text-blue-800 break-all">library.sman1jkt.sch.id</a>
+                            </div>
+                            <div class="pt-4 border-t">
+                                <a href="https://github.com/rizky-siswa/sman1-library" target="_blank" class="inline-flex items-center text-gray-700 hover:text-gray-900">
+                                    <i class="fab fa-github mr-2"></i> Kode Sumber
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 pt-6 border-t">
+                            <h4 class="font-medium mb-3">Bagikan Proyek</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-blue-400 text-white flex items-center justify-center hover:bg-blue-500 transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-gray-800 transition">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <h2 class="text-2xl font-semibold mb-6">Proyek Lainnya</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <a href="project-detail-2.html" class="bg-white rounded-lg shadow-md overflow-hidden flex hover:shadow-lg transition">
+                        <div class="w-1/3">
+                            <img src="https://placehold.co/300x200" alt="Aplikasi sejarah Indonesia" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h3 class="font-semibold mb-1">Aplikasi Sejarah Indonesia</h3>
+                            <p class="text-sm text-gray-600">Aplikasi pembelajaran interaktif</p>
+                        </div>
+                    </a>
+                    <a href="project-detail-3.html" class="bg-white rounded-lg shadow-md overflow-hidden flex hover:shadow-lg transition">
+                        <div class="w-1/3">
+                            <img src="https://placehold.co/300x200" alt="Penelitian tanaman" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h3 class="font-semibold mb-1">Pengaruh Cahaya pada Tanaman</h3>
+                            <p class="text-sm text-gray-600">Proyek penelitian biologi</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as before) -->
+
+    <script>
+        // Same JavaScript as before
+    </script>
+</body>
+</html>
